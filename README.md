@@ -15,6 +15,14 @@ Roteador DIR-853
 
 Este documento descreve as funcionalidades de segurança e configurações de Firewall baseadas na interface do roteador AC1300 MU-MIMO.
 
+<p align="center">
+  <img src="Mídia.jpg" alt="Roteador1" width="600">
+</p>
+
+<p align="center">
+  <img src="imagem.png" alt="Interface Roteador.jpg" width="600">
+</p>
+
 ## 1. Configurações de Host e Firewall
 
 ### Habilitar DMZ Host
