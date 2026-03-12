@@ -27,6 +27,30 @@
 ## Equipamento Utilizado
 *   **Roteador:** D-Link DIR-853 (AC1300 MU-MIMO)
 *   **Objetivo:** Este documento descreve as funcionalidades de segurança e configurações de firewall baseadas na interface do roteador.
+```mermaid
+  graph TD
+
+WAN[Internet / WAN do Provedor<br>Ataques IP Spoofing / Tráfego Externo]
+
+Router[Roteador D-Link DIR-853<br>Firewall SPI / Anti-Spoof / ALG]
+
+DMZ[DMZ Host - Servidor/Console<br>IP: 192.168.0.10]
+
+PC1[Notebook 1 - Nicolas]
+PC2[Notebook 2 - Sara]
+
+Printer[Impressora de rede]
+
+VoIP[Telefone VoIP / SIP]
+
+WAN --> |Porta WAN| Router
+
+Router --> |Exposição Direta| DMZ
+Router --> |LAN 1| PC1
+Router --> |LAN 2| PC2
+Router --> |LAN 3| Printer
+Router --> |Porta ALG| VoIP
+```
 
 ---
 
