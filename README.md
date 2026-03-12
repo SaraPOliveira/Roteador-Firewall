@@ -2,7 +2,7 @@
 **Disciplina:** Redes de Computadores  
 **Data:** 12 de março de 2026
 
-![GitHub License](https://img.shields.io/github/license/nicolasmath/lab-redes-01)
+<img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge">
 
 <p align="center">
   <img src="Mídia.jpg" alt="Roteador D-Link DIR-853" width="600">
