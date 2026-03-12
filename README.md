@@ -27,6 +27,7 @@
 ## Equipamento Utilizado
 *   **Roteador:** D-Link DIR-853 (AC1300 MU-MIMO)
 *   **Objetivo:** Este documento descreve as funcionalidades de segurança e configurações de firewall baseadas na interface do roteador.
+
 ```mermaid
   graph TD
 
